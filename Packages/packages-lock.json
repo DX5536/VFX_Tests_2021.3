@@ -1,19 +1,5 @@
 {
   "dependencies": {
-    "com.febucci.custom-hierarchy": {
-      "version": "https://github.com/febucci/unitypackage-custom-hierarchy.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "093baf4e09c2cd21c284303a977ec112a43041a7"
-    },
-    "com.kelvip.quick-scene-switcher": {
-      "version": "https://github.com/Kelvin-CD/Quick-Scene-Switcher.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "79eaa62b8bfa59c1002ff85c665246bd23fbe49d"
-    },
     "com.unity.burst": {
       "version": "1.6.5",
       "depth": 1,
@@ -24,7 +10,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.17.2",
+      "version": "1.15.15",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -40,7 +26,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.15",
+      "version": "3.0.13",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -49,7 +35,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.16",
+      "version": "2.0.14",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -118,7 +104,7 @@
       }
     },
     "com.unity.test-framework": {
-      "version": "1.1.33",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -158,8 +144,17 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.visualeffectgraph": {
+      "version": "12.1.6",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.shadergraph": "12.1.6",
+        "com.unity.render-pipelines.core": "12.1.6"
+      }
+    },
     "com.unity.visualscripting": {
-      "version": "1.7.8",
+      "version": "1.7.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
